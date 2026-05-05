@@ -1,4 +1,5 @@
-# XR Tabanlı Karaciğer Nakli Hasta Eğitim Sistemi
+## Proje Özeti
+Bu proje, karaciğer nakli sürecini hastalar için daha anlaşılır hale getirmeyi amaçlamaktadır.
 
 ## 📊 SWOT Analizi
 
