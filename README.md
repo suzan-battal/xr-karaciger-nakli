@@ -1,58 +1,92 @@
+# XR Karaciğer Nakli Hasta Eğitim Sistemi
+
 ## Proje Özeti
-Bu proje, karaciğer nakli sürecini hastalar için daha anlaşılır hale getirmeyi amaçlamaktadır.
 
-## 📊 SWOT Analizi
+Bu proje, karaciğer nakli sürecini hastalar için daha anlaşılır ve etkileşimli hale getirmeyi amaçlamaktadır.
+Proje, telefon tabanlı AR teknolojisi kullanılarak geliştirilmiştir.
 
-Karaciğer nakli süreci; ameliyat öncesi hazırlık, ameliyat sonrası bakım ve uzun dönem takip gerektiren, hasta açısından karmaşık ve kritik bir süreçtir. Bu proje, XR (Extended Reality) teknolojileri kullanılarak hastaların ilaç uyumu, komplikasyonların erken tanınması ve doğru karar verme becerilerinin geliştirilmesini hedefleyen etkileşimli bir hasta eğitim sistemidir.
+## Proje Amacı
 
----
+Karaciğer nakli süreci hastalar için oldukça karmaşık ve streslidir.
+Bu proje ile hastaların süreç hakkında bilinçlenmesi, kaygılarının azaltılması ve doğru karar verme becerilerinin geliştirilmesi hedeflenmektedir.
 
-## 🟢 Strengths (Güçlü Yönler)
+## Kullanılan Teknolojiler
 
-- Etkileşimli ve deneyimsel öğrenme sağlar  
-- Davranış değişikliği odaklı eğitim sunar  
-- Komplikasyonların erken tanınmasını destekler  
-- İlaç uyumu ve doz yönetimini geliştirir  
-- Klinik senaryolar ile karar verme becerisi kazandırır  
-- AR tabanlı kullanım sayesinde erişilebilir ve düşük risklidir  
-- Ameliyat öncesi ve sonrası süreçleri kapsar (pre-op & post-op)  
-- Standart ve güvenli bir eğitim ortamı sunar  
-- Klinik karar destek sistemi değildir, hasta eğitimi ve farkındalık odaklıdır  
+* Karma Gerçeklik (MR)
+* Telefon tabanlı AR teknolojisi
+* 3D modelleme
+* XR sistemleri
 
----
+## Sistem Özellikleri
 
-## 🔴 Weaknesses (Zayıf Yönler)
+* 3B karaciğer modeli ile görselleştirme
+* Etkileşimli katmanlar (damarlar, safra kanalları vb.)
+* İlaçların 3 boyutlu gösterimi
+* Komplikasyonların animasyonlarla anlatılması
 
-- Yüksek geliştirme ve donanım maliyeti  
-- Yaşlı hastalar için teknoloji kullanım zorluğu  
-- VR kullanımında baş dönmesi ve mide bulantısı gibi yan etkiler  
-- Cihazların ortak kullanımı nedeniyle hijyen gereksinimi  
-- Multidisipliner ekip ihtiyacı  
+## Sistem Senaryosu
 
----
+1. Kullanıcı uygulamayı açar
+2. 3B karaciğer modeli görüntülenir
+3. Kullanıcı konu seçer (nakil, ilaçlar, uyarılar)
+4. Etkileşimli eğitim başlar
+5. Quiz ile öğrenme seviyesi ölçülür
 
-## 🟡 Opportunities (Fırsatlar)
+## SWOT Analizi
 
-- Sağlıkta dijitalleşme ve XR teknolojilerinin yaygınlaşması  
-- Farklı organ nakillerine uyarlanabilirlik  
-- Taburcu sonrası uzaktan hasta eğitimi imkanı  
-- Sağlık personeli ve tıp öğrencileri için kullanım  
-- Hastane prestijini ve sağlık turizmini artırma potansiyeli  
+### Strengths (Güçlü Yönler)
 
----
+* Etkileşimli ve deneyimsel öğrenme sağlar
+* Davranış değişikliği odaklı eğitim sunar
+* Komplikasyonların erken tanınmasını destekler
+* İlaç uyumu ve doz yönetimini geliştirir
+* Klinik senaryolar ile karar verme becerisi kazandırır
+* AR tabanlı kullanım sayesinde erişilebilir ve düşük risklidir
+* Ameliyat öncesi ve sonrası süreçleri kapsar
+* Güvenli bir eğitim ortamı sunar
 
-## ⚫ Threats (Tehditler)
+### Weaknesses (Zayıf Yönler)
 
-- Veri güvenliği ve hasta gizliliği riskleri  
-- Teknolojiye karşı direnç  
-- Sağlık alanındaki regülasyon ve etik sınırlamalar  
-- Teknolojinin hızlı eskimesi  
-- Simülasyon ile gerçek deneyim arasındaki fark  
+* Yüksek geliştirme maliyeti
+* Yaşlı hastalar için kullanım zorluğu
+* VR kullanımında yan etkiler
+* Hijyen gereksinimi
+* Multidisipliner ekip ihtiyacı
 
----
+### Opportunities (Fırsatlar)
 
-## 🧠 Sonuç
+* Sağlıkta dijitalleşmenin artması
+* XR teknolojilerinin yaygınlaşması
+* Diğer organlara uyarlanabilirlik
+* Uzaktan hasta eğitimi imkanı
+* Sağlık turizmi potansiyeli
 
-XR tabanlı bu sistem, hasta eğitimini pasif bilgi aktarımından çıkararak etkileşimli ve davranış odaklı öğrenmeye dönüştürür. Bu sayede ilaç uyumu ve komplikasyonların erken fark edilmesi desteklenir.  
+### Threats (Tehditler)
 
-Sistemin başarısı; kullanıcı adaptasyonu, veri güvenliği ve klinik süreçlerle uyumlu entegrasyonun sağlanmasına bağlıdır.
+* Veri güvenliği riskleri
+* Teknolojiye direnç
+* Etik ve yasal sınırlamalar
+* Teknolojinin hızlı eskimesi
+
+## RAMS (Güvenlik Örneği)
+
+Sistem kullanıcı güvenliğini ön planda tutar.
+Korkutucu içerik bulunmaz ve kullanıcı istediği zaman çıkış yapabilir.
+Tüm bilgiler tıbbi doğruluk açısından kontrol edilmiştir.
+
+## TRL Seviyesi
+
+TRL 4 – Laboratuvar ortamında doğrulanmış prototip.
+
+## Proje Durumu
+
+Proje geliştirme aşamasındadır ve henüz klinik ortamda test edilmemiştir.
+
+## Sonuç
+
+XR tabanlı bu sistem, hasta eğitimini daha anlaşılır ve etkileşimli hale getirir.
+Gelecekte klinik testler ile sistemin etkinliği değerlendirilecektir.
+
+
+
+
